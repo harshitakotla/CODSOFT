@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #939498; /* Neutral gray background */
+    color: #eee;
+}
+
+header {
+    background: #0d0b0b; /* Vibrant red background for header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0e0d0d; /* Vibrant red for navbar */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #222;
+    border-radius: 10px;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#about h2, #skills h2, #projects h2, #resume h2, #contact h2 {
+    text-align: center;
+    color: #ee1b24; /* Vibrant red for section headers */
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills li {
+    margin: 0 10px;
+    background: #ee1b24;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin: 10px 0 5px 0;
+    color: #ee1b24;
+}
+
+#resume a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #ee1b24;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#contact p {
+    text-align: center;
+}
+
+footer {
+    background: #ee1b24;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
